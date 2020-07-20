@@ -1,0 +1,74 @@
+#wrap{position: relative; width: 100%}
+#content{position: relative; width: 100%; min-width: 1200px; overflow: hidden}
+
+#eventHeader {position: absolute; width: 100%; z-index: 5}
+#eventHeader .logo {position: absolute; top: 26px; left: 0}
+#eventHeader .logo a{display: block;background: url(../images/logo.png) no-repeat; width: 219px; height: 89px}
+#eventHeader .quickLink{position: absolute; top: 40px; right: 45px}
+#eventHeader .quickLink a{font-family: Dotum, "돋움", sans-serif; color: #c3c8cd; font-size: 12px}
+#eventHeader .quickLink a:hover{text-decoration: underline}
+#eventHeader .quickLink li{float: left}
+#eventHeader .quickLink li.link1{padding-right: 8px; margin-right: 7px; background: url(../images/ico_line.png) right 8px no-repeat;}
+#eventHeader .quickLink span{display: inline-block; width: 1px; height: 8px; color: #c3c8cd; padding: 0 8px 0 7px}
+
+/* Common */
+#content .inner{position: relative; width: 1200px; margin: 0 auto; overflow: hidden}
+#content .sec_01 h3, #content .sec_02 h3{width: 412px; height: 60px; background: url(../images/spr_h_txt.png)}
+#content a[class*="btn_"]{display: block; background: url(../images/spr_btn.png) no-repeat}
+
+#content .sec_main{position: relative; width: 100%; height: 969px; background: url(../images/bg_main.jpg) center no-repeat}
+#content .sec_main p{position: absolute}
+#content .sec_main .m_txt1{top: 270px; left: 40%; width: 602px; height: 224px; margin-left: -83px; background: url(../images/main_txt1.png) no-repeat; opacity: 0; filter: alpha(opacity=0)}
+#content .sec_main .m_txt2{top: 454px; left: 60%; width: 707px; height: 202px; margin-left: -23px; background: url(../images/main_txt2.png) no-repeat; opacity: 0; filter: alpha(opacity=0)}
+#content .sec_main .m_txt3{top: 650px; left: 50%; width: 639px; height: 46px; margin-left: -10px; background: url(../images/main_txt3.png) no-repeat; opacity: 0; filter: alpha(opacity=0)}
+
+#content .sec_01{height: 819px; padding-top: 80px; background: #25272b}
+#content .sec_01 .summary01{margin: 0 auto 15px}
+#content .sec_01 .box_select{width: 1232px; height: 133px; margin-bottom: 52px; padding-top: 47px; background: url(../images/bg_sb_box.png) -8px no-repeat; font-size: 20px}
+#content .sec_01 .box_select a{color: #000}
+#content .sec_01 .box_select a[class*="sel_"]{float: left; position: relative; display: block; width: 266px; padding: 16px 19px; background: url(../images/ico_sb.png) 95% center no-repeat; background-color: #fff}
+#content .sec_01 .box_select ul{display: none; position: absolute; top: 181px; background-color: #fff}
+#content .sec_01 .box_select ul li a{display: block; width: 266px; padding: 4px 19px}
+#content .sec_01 .box_select ul li a:hover{background-color: #e8e8e8}
+#content .sec_01 .sel_server{margin-left: 98px}
+#content .sec_01 .serverList{left: 98px}
+#content .sec_01 .sel_class{margin-left: 46px; margin-right: 47px}
+#content .sec_01 .classList{left: 448px}
+#content .sec_01 .btn_jumping{float: left; width: 323px; height: 78px}
+#content .sec_01 .summary02{background-position: 0 -80px; margin: 0 auto 35px}
+#content .sec_01 .box_guide{width: 1200px; height: 290px; background: url(../images/bg_guide.png) no-repeat}
+
+#content .sec_02{height: 564px; padding-top: 81px; background: #394a87; border-top: 1px solid #2d3550; border-bottom: 1px solid #21273a}
+#content .sec_02 .summary03{width: 518px; margin: 0 auto 48px; background-position: 0 -160px}
+#content .sec_02 .box_item{width: 1200px; height: 365px; background: url(../images/bg_item_box.png) no-repeat}
+#content .sec_02 .box_item li{position: relative; height: 100%; float: left}
+#content .sec_02 .box_item li img{position: absolute; left: 50%}
+#content .sec_02 .box_item .il01{width: 399px}
+#content .sec_02 .box_item .il01 img{top: 96px; margin-left: -157px}
+#content .sec_02 .box_item .il02{width: 400px}
+#content .sec_02 .box_item .il02 img{top: 72px; margin-left: -164px}
+#content .sec_02 .box_item .il03{width: 401px}
+#content .sec_02 .box_item .il03 img{top: 85px; margin-left: -103px}
+#content .sec_02 .box_item a{position: absolute; bottom: 10px; left: 50%; width: 256px; height: 68px; margin-left: -128px; background-position: 0 -88px}
+
+#content .sec_03{height: 165px; padding: 34px 0 36px 0; background: #1d202c}
+#content .sec_03 h2{float: left; width: 117px; height: 24px; padding-right: 28px; background: url(../images/txt_footer.png) no-repeat}
+#content .sec_03 ol{float: left; font-size: 20px; margin-top: -7px; margin-left: -10px; line-height: 34px; color: #676c77; letter-spacing: -2px; text-shadow: 1px 1px 20px #000}
+#content .sec_03 ol li{ list-style: decimal; margin-left: 26px}
+#content .sec_03 address{clear: both; padding-left: 145px; margin-top: 11px; font-size: 17px; color: #616267}
+
+#content .quickMenu{position: fixed; top: 235px; right: 18px; z-index: 5}
+#content .quickMenu a{display: block; width: 144px; height: 162px; background: url(../images/spr_quick_menu.png)}
+#content .quickMenu a.menu2{background-position: 0 -163px}
+
+#wrap .wrap_popup .overlay{display: none; position: fixed; top: 0; width: 100%; height: 100%; background-color: #000; opacity: 0.65; filter: alpha(opacity=65); z-index: 10; cursor: pointer}
+#wrap .wrap_popup [class*="pop0"]{display: none; position: fixed; top: 50%; left: 50%; width: 1121px; padding: 74px 40px 40px 39px; margin-left: -600px; border-top: 1px solid #343c6a; z-index: 15; background-color: #3c4d8d; text-align: center}
+#wrap .wrap_popup .pop01{height: 753px; margin-top: -401px}
+#wrap .wrap_popup .pop02{height: 400px; margin-top: -257px}
+#wrap .wrap_popup .pop03{height: 688px; margin-top: -423px}
+#wrap .wrap_popup h3{margin-bottom: 28px; font-size: 60px; color: #fff; letter-spacing: -5px; font-weight: normal; line-height: 1}
+#wrap .wrap_popup table, #wrap .wrap_popup th, #wrap .wrap_popup tr, #wrap .wrap_popup td{border: 1px solid #350242; padding: 11px 0 6px}
+#wrap .wrap_popup table{width: 100%}
+#wrap .wrap_popup thead th{color: #dbe2ec; background-color: #242d4e; font-size: 20px; font-weight: normal; letter-spacing: -2px; padding: 17px 0 12px}
+#wrap .wrap_popup tbody{color:#8491c2; font: 18px}
+#wrap .wrap_popup .btn_pop_close{display: block; position: absolute; top: 27px; right: 28px;  width: 42px; height: 40px; background: url(../images/btn_close.png) 97% 3% no-repeat; }

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>ELIE SAAB</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="app_icon.png" />
+        <link rel="apple-touch-startup-image" href="startup.png" />
+
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/swiper.css" />
+
+        <script src="js/jquery-1.8.3.min.js"></script>
+        <script src="js/jquery-migrate-1.4.1.min.js"></script>
+        <script src="js/prefixfree.min.js"></script>
+        <script src="js/swiper.js"></script>
+
+        <script>
+            // <![CDATA[
+            try {
+                window.addEventListener(
+                    "load",
+                    function () {
+                        setTimeout(scrollTo, 0, 0, 1);
+                    },
+                    false
+                );
+            } catch (e) {}
+            // ]]>
+        </script>
+
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/css3-mediaqueries.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div id="loading">
+            <img src="images/loading2.gif" alt="Loading.." />
+        </div>
+        <div id="skipNav">
+            <a href="#content">본문 바로가기</a>
+            <a href="#gnb">글로벌 네비게이션 바로가기</a>
+        </div>
+        <div class="main">
+            <video id="mVideo" autoplay loop muted preload>
+                <source src="images/main.mp4" type="video/mp4" />
+                -
+            </video>
+            <img src="images/main.png" id="mImg" alt="visual" />
+
+            <div class="scrollDown">
+                <a href="#">
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <span class="text">SCROLL DOWN</span>
+                </a>
+            </div>
+        </div>
+
+        <div id="wrap">
+            <header id="headerArea" class="headerArea">
+                <h1><a href="#">ELIE SAAB</a></h1>
+                <a href="#" class="gnbBtn">Hamburger Menu</a>
+                <nav id="gnb">
+                    <h2 class="blind">네비게이션 영역</h2>
+                    <ul>
+                        <li><a href="sub/sub1.html">The Story</a></li>
+                        <li><a href="sub/sub2.html">Products</a></li>
+                        <li><a href="sub/sub3.html">Gallery</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <article id="content">
+                <h2 class="hidden">본문컨텐츠 영역</h2>
+                <section class="sec_products">
+                    <h3 class="hidden">Products</h3>
+                    <div class="wrap_slider">
+                        <a href="javascript:void(0)">
+                            <ul class="slideImg">
+                                <li><img src="images/prd_clothes1.png" alt="slide1" /></li>
+                                <li><img src="images/prd_clothes2.png" alt="slide2" /></li>
+                                <li><img src="images/prd_clothes3.png" alt="slide3" /></li>
+                                <li><img src="images/prd_clothes4.png" alt="slide4" /></li>
+                                <li><img src="images/prd_clothes5.png" alt="slide5" /></li>
+                            </ul>
+                            <span class="bgTxt">READY-TO-WEAR / HAUTE COUTURE</span>
+                        </a>
+                        <div class="btn fBtn">
+                            <div class="btnBack fBack"><a href="javascript:void(0)">back</a></div>
+                            <div class="btnNext fNext"><a href="javascript:void(0)">next</a></div>
+                        </div>
+                    </div>
+                    <div class="productList">
+                        <div class="prd1">
+                            <a href="javascript:void(0)"><span>BAGS</span></a>
+                        </div>
+                        <div class="prd2">
+                            <a href="javascript:void(0)"><span>SHOES</span></a>
+                        </div>
+                        <div class="prd3">
+                            <a href="javascript:void(0)"><span>JEWERLY</span></a>
+                        </div>
+                        <div class="prd4">
+                            <a href="javascript:void(0)"><span>BELT</span></a>
+                        </div>
+                    </div>
+                </section>
+                <section class="sec_bridal">
+                    <h3 class="helveM">Bridal</h3>
+                </section>
+                <section class="sec_collection">
+                    <!--(276*414)*4-->
+                    <h3>Collection</h3>
+                    <div class="wrap_col_slider">
+                        <div class="swiper-container">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <span>FALL 2018<br />READY-TO-WEAR</span>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <span>SPRING 2018<br />READY-TO-WEAR</span>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <span>SPRING 2018<br />COUTURE</span>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <span>FALL 2017<br />COUTURE</span>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <span>SPRING 2017<br />COUTURE</span>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <span>FALL 2016<br />COUTURE</span>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <span>SPRING 2015<br />COUTURE</span>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0)">
+                                        <span>FALL 2014<br />COUTURE</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="btn button">
+                            <div class="btnBack back"><a href="javascript:void(0)">back</a></div>
+                            <div class="btnNext next"><a href="javascript:void(0)">next</a></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="sec_perfume">
+                    <h3 class="hidden">Perfume</h3>
+                    <img src="images/perfume.png" alt="" />
+                    <dl>
+                        <dt>ELIE SAAB LE PARFUME</dt>
+                        <dd>
+                            LIE SAAB Le Parfum is a commitment to faithfully convey the style codes of the fashion house. It is a fragrance that expresses radiant femininity and the dual nature of the creator’s world, characterised by Middle Eastern light and Western modernity. Its straightforward name heralds a brand new way to wear the ELIE SAAB signature.
+                        </dd>
+                    </dl>
+                    <a class="btnMore" href="#">more &gt;</a>
+                </section>
+                <section class="sec_info">
+                    <h3 class="hidden">Information</h3>
+                    <div class="infoInner">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)"><img src="images/info1.png" alt="img" /></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"><img src="images/info2.png" alt="img" /></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"><img src="images/info3.png" alt="img" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+
+            <footer id="footerArea">
+                <ul class="sns">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twiiter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </footer>
+        </div>
+
+        <div id="scrollTop">
+            <a href="#"> <img src="images/ico_scrollTop.png" alt="상단으로" /></a>
+        </div>
+
+        <script src="js/common.js"></script>
+        <script src="js/index.js"></script>
+        <script>
+            $(document).ready(function () {
+                /*Call Swiper Plugin*/
+                window.onload = function () {
+                    var swiper = new Swiper(".swiper-container", {
+                        slidesPerView: "auto",
+                        paginationClickable: true,
+                        spaceBetween: 0,
+                        freeMode: true,
+                        nextButton: ".next",
+                        prevButton: ".back",
+                    });
+                };
+            });
+        </script>
+    </body>
+</html>

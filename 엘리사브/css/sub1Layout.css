@@ -1,0 +1,85 @@
+/* Wide pc  */
+#wrap{width: 100%; background: #efefef}
+.main{background: url(../images/sub1/sub1Back.png) center top; background-size: cover}
+#content{position: relative; top: -200px; padding: 0 0 0 0; transition: all .7s }
+#content .cBox{padding: 0 5%}
+#content .cBox1{position: relative;  width: 100%; height: 500px; background: #000}
+#content .cBox1Inner{position: absolute; width: 100%; height: 100%; background:  url(../images/sub1/backimg01.png) center right no-repeat; z-index: 20}
+#content .cBox1 h3{position: absolute; bottom: 1%; left: 5%; color: #fff; font-size: 100px; font-weight: normal}
+#content .cBox1:after{content: ''; display: block; position: absolute; bottom: -100px; left: 0; width: 100%; height: 200px; transform: skewY(-5deg); background: #000; z-index: 10}
+/*#content .cBox2:before{content: ''; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 200px; transform: skewY(-5deg); background: #000}*/
+#content .cBox2{position: relative; width: 100%; height: auto; padding: 200px 0 200px 0; background: #fff; text-align: right}
+#content .cBox2:after{content: ''; display: block; position: absolute; bottom: -50px; left: 0; width: 100%; height: 100px; transform: skewY(-4deg); background: #000}
+#content .cBox2 h3{width: 95%; margin-right: 5%; font-weight: normal; font-size: 60px; margin-bottom: 60px}
+#content .cBox2 dl{margin-right: 5%; width: 95%}
+#content .cBox2 dt{font-size: 24px; margin: 40px 0 20px 0}
+#content .cBox2 dd{width: 55%; margin-left: 45%; font-size: 16px; line-height: 1.8em}
+#content .cBox3 {width: 90%; height: auto; padding: 0 5%; background: #000; padding-top: 100px; text-align: center; overflow: hidden; padding-bottom: 100px}
+#content .cBox3 h3{font-weight: normal; color: #b39267; font-size: 90px; line-height: 2em}
+#content .cBox3 dl{color: #fff}
+#content .cBox3 dt{font-weight: bold; font-size: 36px; margin-bottom: 40px}
+#content .cBox3 dd{font-size: 18px; width: 70%; margin: 0 15%}
+#content .cBox3 dl:nth-child(2) dd{margin-bottom: 20px}
+#content .cBox3 ul{padding: 100px 0; width: 100%; overflow: hidden}
+#content .cBox3 ul li{width: 50%; float: left}
+#content .cBox3 ul li:nth-child(3){ clear: both}
+#content .cBox3 ul li:nth-child(3), #content .cBox3 ul li:nth-child(4){ margin-top: 50px}
+#content .cBox3 ul li a{position: relative;display: block; width: 100%}
+#content .cBox3 ul li img{width: 100%}
+#content .cBox3 ul li span{font-size: 24px; line-height: 3em; color: #fff}
+#content .cBox3 ul li .playbtn{position: absolute; top: 50%; left: 50%; margin-left: -32px; margin-top: -32px; width: 64px; height: 64px; background:url(../images/sub1/ico_video.png) 0 0 no-repeat; background-size: 133px 64px; text-indent: -999em; opacity: .5}
+#content .cBox3 ul li a:hover .playbtn{background-position: -68px 0}
+
+
+
+@media screen and (max-width:1400px) {
+    #content{width: 100%}
+}
+
+/* Normal PC */
+@media screen and (max-width:1280px) {
+	#content .cBox2 dd {margin-left: 20%; width: 80%}
+}
+
+/* Tablet */
+@media screen and (max-width:1024px) {
+    #content .cBox1 h3 {font-size: 80px}
+    #content .cBox2 h3 {font-size: 50px}
+    #content .cBox2 dd {margin-left: 25%; width: 75%}
+    #content .cBox3 h3 {font-size: 70px}
+    #content .cBox3 dt {font-size: 30px}
+}
+
+/* Small Tablet */
+@media screen and (max-width:768px) {
+    .main{background: none; height: 0}
+    #content{top: 75px}
+    #content .cBox3 ul li .playbtn{margin-left: -22px; margin-top: -22px; width: 44px; height:44px; background-size: 91px 44px}
+    #content .cBox3 ul li a:hover .playbtn{background-position: -46px}
+    #content .cBox3 ul li span{line-height: 2em; font-size: 20px}
+    
+}
+
+/* Mobile - Landscape */
+@media screen and (max-width:640px) {
+    #content .cBox3 h3 {font-size: 50px}
+    #content .cBox3 dt {font-size: 24px}
+    #content .cBox3 ul li{float: none; width: 100%; margin-top: 50px}
+    #content .cBox3 ul li:nth-child(1){margin-top: 0}
+    #content .cBox3 ul li span{line-height: 3em; font-size: 28px}
+	
+}
+
+/* Mobile - Portrait */
+@media screen and (max-width:480px) {
+    #content .cBox1 .cBox1Inner{background-position: center}
+    #content .cBox1 h3 {font-size: 60px; text-align: center}
+    #content .cBox2 h3 {width: 100%; margin-right: 0; font-size: 40px; text-align: center}
+    #content .cBox2 dl {width: 80%; margin: 0 10%; text-align: center}
+    #content .cBox2 dd{width: 100%; margin: 0}
+    #content .cBox dd{font-size: 15px}
+    #content .cBox3 h3{font-size: 38px}
+    #content .cBox3 dt {font-size: 18px}
+    #content .cBox3 ul li span{line-height: 3em; font-size: 20px}
+
+}

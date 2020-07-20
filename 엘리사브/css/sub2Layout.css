@@ -1,0 +1,98 @@
+/* Wide pc  */
+.main{background: url(../images/sub2/sub2Back.jpg) center top; background-size: cover}
+#content h3{position: relative; text-align: center; font-size: 60px; margin-bottom: 70px}
+#content h3:before { position: absolute; bottom: -20px;
+    left: 50%; margin-left: -25px; width: 50px; height: 1px; border-bottom: 5px solid #333; content: ''}
+#content h4{background: #000; color: #fff; padding-left: 5%; margin: 0 5px; font-size: 32px; margin-bottom: 10px; font-weight: normal; line-height: 1.8em}
+#content ul{width: 100%; overflow: hidden}
+#content ul li {width: 25%; float: left}
+#content ul li img{width: 100%}
+#content ul li a{display: block; width: auto; margin: 0 5px; padding-top: 160%; transition: all .5s}
+#content ul li div{text-align: center; font-size: 22px; line-height: 1.5em; transition: all .5s; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+#content .btnMore{position: absolute; top: 17px; right: 30px}
+#content .btnMore a{color: #fff; font-size: 20px}
+#content .btnMore:hover{text-decoration: underline}
+
+#content .cBox1, #content .cBox2, #content .cBox3{position: relative}
+#content .cBox2, #content .cBox3{margin-top: 80px}
+#content ul li:nth-child(-1n+4) {margin-bottom: 40px}
+
+#content .cBox1 ul li:nth-child(1) a{background: url(../images/sub2/dre01.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(2) a{background: url(../images/sub2/dre03.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(3) a{background: url(../images/sub2/dre05.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(4) a{background: url(../images/sub2/dre07.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(5) a{background: url(../images/sub2/dre09.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(6) a{background: url(../images/sub2/dre11.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(7) a{background: url(../images/sub2/dre13.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(8) a{background: url(../images/sub2/dre15.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(1) a:hover{background: url(../images/sub2/dre02.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(2) a:hover{background: url(../images/sub2/dre04.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(3) a:hover{background: url(../images/sub2/dre06.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(4) a:hover{background: url(../images/sub2/dre08.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(5) a:hover{background: url(../images/sub2/dre10.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(6) a:hover{background: url(../images/sub2/dre12.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(7) a:hover{background: url(../images/sub2/dre14.png) no-repeat;background-size: 100%}
+#content .cBox1 ul li:nth-child(8) a:hover{background: url(../images/sub2/dre16.png) no-repeat;background-size: 100%}
+
+#content .cBox2 ul li:nth-child(1) a{background: url(../images/sub2/top01.png) no-repeat;background-size: 100%}
+#content .cBox2 ul li:nth-child(2) a{background: url(../images/sub2/top03.png) no-repeat;background-size: 100%}
+#content .cBox2 ul li:nth-child(3) a{background: url(../images/sub2/top05.png) no-repeat;background-size: 100%}
+#content .cBox2 ul li:nth-child(4) a{background: url(../images/sub2/top07.png) no-repeat;background-size: 100%}
+#content .cBox2 ul li:nth-child(1) a:hover{background: url(../images/sub2/top02.png) no-repeat;background-size: 100%}
+#content .cBox2 ul li:nth-child(2) a:hover{background: url(../images/sub2/top04.png) no-repeat;background-size: 100%}
+#content .cBox2 ul li:nth-child(3) a:hover{background: url(../images/sub2/top06.png) no-repeat;background-size: 100%}
+#content .cBox2 ul li:nth-child(4) a:hover{background: url(../images/sub2/top08.png) no-repeat;background-size: 100%}
+
+#content .cBox3 ul li:nth-child(1) a{background: url(../images/sub2/btm01.png) no-repeat;background-size: 100%}
+#content .cBox3 ul li:nth-child(2) a{background: url(../images/sub2/btm03.png) no-repeat;background-size: 100%}
+#content .cBox3 ul li:nth-child(3) a{background: url(../images/sub2/btm05.png) no-repeat;background-size: 100%}
+#content .cBox3 ul li:nth-child(4) a{background: url(../images/sub2/btm07.png) no-repeat;background-size: 100%}
+#content .cBox3 ul li:nth-child(1) a:hover{background: url(../images/sub2/btm02.png) no-repeat;background-size: 100%}
+#content .cBox3 ul li:nth-child(2) a:hover{background: url(../images/sub2/btm04.png) no-repeat;background-size: 100%}
+#content .cBox3 ul li:nth-child(3) a:hover{background: url(../images/sub2/btm06.png) no-repeat;background-size: 100%}
+#content .cBox3 ul li:nth-child(4) a:hover{background: url(../images/sub2/btm08.png) no-repeat;background-size: 100%}
+
+@media screen and (max-width:1400px) {
+    #content{width: 100%; margin: 0;}
+}
+
+/* Normal PC */
+@media screen and (max-width:1280px) {
+	#content ul li div{font-size: 18px}
+}
+
+/* Normal PC */
+@media screen and (max-width:1280px) {
+    
+    
+}
+
+
+/* Tablet */
+@media screen and (max-width:1024px) {
+    #content ul li {width: 33.333%; display: none}
+    #content .cBox1 ul li:nth-child(-1n+6) {display: block}
+    #content .cBox2 ul li:nth-child(-1n+3), #content .cBox3 ul li:nth-child(-1n+3) {display: block}
+}
+
+/* Small Tablet */
+@media screen and (max-width:768px) {
+    #headerArea {background: rgba(0,0,0,.3)}
+    .main{width: 100%; height: 400px; background: url(../images/mSubBack.jpg) center top no-repeat; background-size:cover}
+    #content{padding-top: 50px}
+}
+
+/* Mobile - Landscape */
+@media screen and (max-width:640px) {
+    #content h4{font-size: 28px}
+    #content .btnMore {top: 13px}
+    #content .btnMore a {font-size: 18px}
+	#content ul li {width: 50%; display: none}
+    #content .cBox2 ul li:nth-last-child(2), #content .cBox3 ul li:nth-last-child(2){display: none}
+}
+
+/* Mobile - Portrait */
+@media screen and (max-width:480px) {
+    #wrap{min-width: 320px}
+    #content ul li div{font-size: 16px}
+}
