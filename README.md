@@ -11,7 +11,7 @@
 ![Screenshot](./screenshot/대명건설/mb-main.gif)
 
 ---
-## 2. 엘리사브 (ELIE SAAB) RENEWAL [작업물 바로가기](https://may54ther.github.io/2018_portfolio/엘리사브/index.html)
+## 엘리사브 (ELIE SAAB) RENEWAL [작업물 바로가기](https://may54ther.github.io/2018_portfolio/엘리사브/index.html)
 외국 패션브랜드인 ELIE SAAB의 사이트를 리뉴얼(디자인, 퍼블리싱)한 작업물입니다.  
 
 ![Screenshot](./screenshot/엘리사브/pc-main.gif)  
