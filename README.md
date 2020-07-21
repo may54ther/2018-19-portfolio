@@ -37,4 +37,4 @@
 ### 카발온라인 - 이벤트 [바로가기](https://may54ther.github.io/2018_portfolio/카발온라인/event/index.html)  
  ![Screenshot](./screenshot/카발온라인/event.jpg)
  - 특징
-  - IE7+ 크로스브라우징  
+    - IE7+ 크로스브라우징  
